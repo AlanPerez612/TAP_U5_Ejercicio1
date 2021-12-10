@@ -38,10 +38,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
         radioButton.setOnClickListener {
-            Toast.makeText(this,"Usted es casado.",Toast.LENGTH_LONG)
+            Toast.makeText(this,"Usted es casado.",Toast.LENGTH_LONG).show()
         }
         radioButton2.setOnClickListener {
-            Toast.makeText(this,"Usted es soltero.",Toast.LENGTH_LONG)
+            Toast.makeText(this,"Usted es soltero.",Toast.LENGTH_LONG).show()
         }
     }
 }
